@@ -209,7 +209,7 @@ void loop()
       
       Serial.print(data);
       const char *datac = data.c_str();
-      client.publish("tag/card", datac);
+      client.publish("tag/Michiel", datac);
 
       if (uidLength == 4)
       {
